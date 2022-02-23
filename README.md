@@ -1,7 +1,8 @@
 # Car-Detection-with-YOLO
-Model to detect cars, buses and other objects relevant to driving. It can take images as input and gives the output framing the objects which can be used for autonomous driving. (Using YOLO model - Transfer Learning))
+This is the server side for sagemaker.
+Its a model to detect cars, buses and other objects relevant to driving. It can take images as input and gives the output framing the objects which can be used for autonomous driving. (Using YOLO model - Transfer Learning))
 
-The file yolo.h5 is needed which is quite large so it is needed to be downloaded online. Please download [yolo.h5](https://www.kaggle.com/rmoharir8396/notebook) and add it to the folder image_data.
+The file yolo.h5 is needed which is quite large so it is needed to be downloaded online. Please download [yolo.h5](https://www.kaggle.com/rmoharir8396/yolo-h5-file) and add it to the folder image_data.
 
 ## Model
 
@@ -19,7 +20,13 @@ The output is a list of bounding boxes along with the recognized classes.
 
 #### Output snaps
 
-![Test o Image](ss2.JPG)
+![Test o Image](https://github.com/syamimazlan/yolo-sagemaker/blob/main/YOLOCar/ss2.JPG)
+
+## Connecting to DocumentDB for database
+//put screenshots
+
+## Sagemaker fine-tuning
+//on view
 
 ## Model Summary
 
@@ -34,7 +41,7 @@ _____________________________
 
 1. Install yolo.h5 file from the source given in the readme file to use the model.
 2. You put this file in the model_data folder in the project.
-3. To use the model Run OD.IPYNB file in jupyter notebook.
+3. To use the model Run tensorflowwwe.ipynb file in jupyter notebook.
 4. You can test different images in the Images folder to see the output.
 
 This is a basic model and is made with transfer learning using coco dataset for object detection.
