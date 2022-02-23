@@ -22,6 +22,12 @@ The output is a list of bounding boxes along with the recognized classes.
 
 ![Test o Image](https://github.com/syamimazlan/yolo-sagemaker/blob/main/YOLOCar/ss2.JPG)
 
+## Connecting to DocumentDB for database
+//put screenshots
+
+## Sagemaker fine-tuning
+//on view
+
 ## Model Summary
 
 Total params: 50,983,561
@@ -35,7 +41,7 @@ _____________________________
 
 1. Install yolo.h5 file from the source given in the readme file to use the model.
 2. You put this file in the model_data folder in the project.
-3. To use the model Run OD.IPYNB file in jupyter notebook.
+3. To use the model Run tensorflowwwe.ipynb file in jupyter notebook.
 4. You can test different images in the Images folder to see the output.
 
 This is a basic model and is made with transfer learning using coco dataset for object detection.
