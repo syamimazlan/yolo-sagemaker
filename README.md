@@ -20,7 +20,7 @@ The output is a list of bounding boxes along with the recognized classes.
 
 #### Output snaps
 
-![Test o Image](ss2.JPG)
+![Test o Image](https://github.com/syamimazlan/yolo-sagemaker/blob/main/YOLOCar/ss2.JPG)
 
 ## Model Summary
 
