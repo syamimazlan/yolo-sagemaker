@@ -1,5 +1,5 @@
 # Car-Detection-with-YOLO
-This is the server side for sagemaker.
+This is a project I'm doing for my company.
 Its a model to detect cars, buses and other objects relevant to driving. It can take images as input and gives the output framing the objects which can be used for autonomous driving. (Using YOLO model - Transfer Learning))
 
 The file yolo.h5 is needed which is quite large so it is needed to be downloaded online. Please download [yolo.h5](https://www.kaggle.com/rmoharir8396/yolo-h5-file) and add it to the folder image_data.
