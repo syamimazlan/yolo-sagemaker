@@ -1,4 +1,5 @@
 # Car-Detection-with-YOLO
+NOTE: Can be run on AWS SageMaker notebook or Google Colab.
 This is a project I'm doing for my company.
 Its a model to detect cars, buses and other objects relevant to driving. It can take images as input and gives the output framing the objects which can be used for autonomous driving. (Using YOLO model - Transfer Learning))
 
